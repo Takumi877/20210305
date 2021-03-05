@@ -3,7 +3,37 @@ a {
   color: inherit;
   transition: 0.3s;
 }
+
+body {
+  line-height: 1.6;
+}
 /* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+  background-color: #fff;
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.header-logo {
+  font-size: 24px;
+  width: 80px;
+}
+
+.header-nav-list {
+  display: flex;
+  font-weight: bold;
+}
+
+.header-nav-item:not(:last-child) {
+  margin-right: 30px;
+}
 
 /* --firstview--- */
 #firstview {
@@ -39,8 +69,21 @@ a {
 }
 
 .service-item-img {
-  display: block;
-  width: 200px;
+  width: 290px;
+}
+
+.service-item-img img {
+  width: 100%;
+  height: auto;
+}
+
+.service-item-detail {
+  width: calc(100% - 330px);
+}
+
+.service-item-title {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 
@@ -75,4 +118,26 @@ a {
   color: #fff;
   padding: 10px;
   font-weight: bold;
+}
+
+/* ----footer---- */
+footer {
+  padding: 20px 0;
+  color: #fff;
+  background-color: #222;
+}
+
+.footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.footer-nav-list {
+  display: flex;
+  flex-wrap: wrap;
 }
