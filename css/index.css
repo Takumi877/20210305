@@ -114,10 +114,10 @@ header {
 .service-item {
   width: 49%;
   margin-top: 20px;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
-.service-item-img {
+.service-item-img img {
   width: 100%;
   height: auto;
 }
@@ -208,6 +208,10 @@ header {
   margin-right: 20px;
 }
 
+.blog-item-thumbnail img {
+  width: 100%;
+  height: auto;
+}
 
 .blog-item:nth-child(3n) {
   margin-right: 0;
