@@ -4,6 +4,10 @@ a {
   transition: 0.3s;
 }
 
+a:hover {
+  opacity: 0.5;
+}
+
 body {
   line-height: 1.6;
 }
@@ -35,6 +39,9 @@ header {
   margin-right: 30px;
 }
 
+.hamburger {
+  display: none;
+}
 /* ----firstview---- */
 #firstview {
   background: url(../img/mv.png) no-repeat;
@@ -85,8 +92,20 @@ header {
   width: 100%;
   padding: 5px;
   border: 1px solid #ccc;
+  height: 200px;
 }
 
+.contact-form-submit {
+  width: 300px;
+  margin: 20px auto 0;
+  padding: 10px;
+  border: none;
+  display: block;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
 /* ----footer---- */
 footer {
   padding: 20px 0;
@@ -107,4 +126,12 @@ footer {
 .footer-nav-list {
   display: flex;
   flex-wrap: wrap;
+}
+
+.footer-nav-item {
+  padding: 0 10px;
+}
+
+.footer-nav-item+ .footer-nav-item {
+  border-left: 1px solid #fff;
 }

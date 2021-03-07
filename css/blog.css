@@ -4,6 +4,10 @@ a {
   transition: 0.3s;
 }
 
+a:hover {
+  opacity: 0.5;
+}
+
 body {
   line-height: 1.6;
 }
@@ -39,6 +43,9 @@ header {
   margin-right: 30px;
 }
 
+.hamburger {
+  display: none;
+}
 /* ----firstview---- */
 #firstview {
   background: url(../img/mv.png) no-repeat;
@@ -138,4 +145,12 @@ footer {
 .footer-nav-list {
   display: flex;
   flex-wrap: wrap;
+}
+
+.footer-nav-item {
+  padding: 0 10px;
+}
+
+.footer-nav-item+ .footer-nav-item {
+  border-left: 1px solid #fff;
 }
