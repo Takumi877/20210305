@@ -1,5 +1,295 @@
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.3s;
+}
+
+body {
+  line-height: 1.6;
+}
 /* -----header----- */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+  background-color: #fff;
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.header-logo {
+  font-size: 24px;
+  width: 80px;
+}
+
+.header-nav-list {
+  display: flex;
+  font-weight: bold;
+}
+
+.header-nav-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* ----firstview---- */
+#firstview {
+  background: url(/img/mv.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+#firstview .wrap {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+#firstview .catchcopy {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+
+.catchcopy-en {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* ----top-feature---- */
+.top-feature {
+  color: #fff;
+  background-color: #222;
+  padding: 80px 0;
+}
+
+.top-feature .inner {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.txt {
+  margin-top: 20px;
+}
+
+/* ----service---- */
+.service {
+  padding: 80px 0;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.service-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.service-item {
+  width: 49%;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.service-item-img {
+  width: 100%;
+  height: auto;
+}
+
+.service-btn {
+  margin: 40px auto 0;
+}
+
+.btn {
+  display: block;
+  width: 300px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #cd0224;
+  color: #fff;
+}
+
+/* ----news---- */
+.news {
+  background-color: #222;
+  padding: 80px 0;
+}
+
+.news-inner {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.news-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.news-title {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.news-btn {
+  width: 160px;
+  font-size: 14px;
+  padding: 7px;
+}
+
+.news-list {
+  margin-top: 20px;
+}
+
+.news-item-link {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.news-item-date {
+  margin-right: 10px;
+}
+
+.news-item:not(:first-child) {
+  margin-top: 10px;
+}
+
+/* -----blog----- */
+.blog {
+  padding: 80px 0;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.blog-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.blog-item {
+  width: 32%;
+  margin-right: 20px;
+}
 
 
-/* ----main---- */
+.blog-item:nth-child(3n) {
+  margin-right: 0;
+}
 
+.blog-btn {
+  margin: 40px auto 0;
+}
+
+/* -----company-list----- */
+.company-list {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px 0 80px 0;
+}
+
+.company-item {
+  width: 100%;
+  line-height: 10;
+  text-align: center;
+}
+
+.company-link {
+  display: inline-block;
+  width: 100%;
+  background-color: #cd0224;
+}
+
+.recruit-link {
+  display: inline-block;
+  width: 100%;
+  background-color: #222;
+}
+
+
+/* ----contact---- */
+#contact {
+  display: block;
+  background-color: #f5f6f9;
+  text-align: center;
+  padding: 80px 0;
+}
+
+#contact .wrap {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.contact-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.contact-text {
+  margin-top: 20px;
+}
+
+.contact-btn {
+  display: block;
+  margin: 40px auto 0;
+  width: 300px;
+  text-align: center;
+  background-color: #cd0224; 
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* ----footer---- */
+footer {
+  padding: 20px 0;
+  color: #fff;
+  background-color: #222;
+}
+
+.footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.footer-nav-list {
+  display: flex;
+  flex-wrap: wrap;
+}
