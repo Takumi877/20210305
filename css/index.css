@@ -351,9 +351,8 @@ footer {
     display: none;
   }
 
-  .catchcopy,
-  .catchcopy-en {
-    width: 85%;
+  .wrap {
+    width: 80%;
   }
 
   /* ----main---- */
@@ -388,7 +387,7 @@ footer {
     margin-right: 0;
   }
 
-  .wrap {
+  #firstview .wrap {
     width: 85%;
   }
 
