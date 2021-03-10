@@ -372,8 +372,11 @@ footer {
   }
 
   .blog {
-    display: block;
     padding: 80px 20px;
+  }
+
+  .blog-list {
+    display: block;
   }
 
   .blog-item {
