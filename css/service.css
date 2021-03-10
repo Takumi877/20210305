@@ -62,9 +62,7 @@ header {
 
 /* ----service---- */
 .service-wrap {
-  padding: 80px 0;
-  width: 1080px;
-  margin: 0 auto;
+  padding: 80px 0 ;
 }
 
 .service-item {
