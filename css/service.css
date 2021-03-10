@@ -65,6 +65,10 @@ header {
   padding: 80px 0;
 }
 
+.service-list {
+  padding: 0 70px;
+}
+
 .service-item {
   padding: 20px 0;
   border-top: 1px solid #222;
@@ -82,8 +86,12 @@ header {
 }
 
 .service-item-title {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
+}
+
+.service-item-text {
+  font-size: 15px;
 }
 
 .service-item-detail {
