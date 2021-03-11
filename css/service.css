@@ -62,15 +62,13 @@ header {
 
 /* ----service---- */
 .service-wrap {
-  padding: 80px 200px;
-  position: relative;
+  padding: 80px 180px;
 }
 
 
 .service-item {
   border-top: 1px solid #222;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .service-list {
@@ -214,7 +212,11 @@ footer {
   }
 
   .service-wrap {
-    width: 85%;
+    padding: 80px 50px;
+  }
+
+  .service-item {
+    flex-wrap: wrap;
   }
 
   .service-item-img {
@@ -223,6 +225,7 @@ footer {
 
   .service-item-detail {
     width: 100%;
+    margin: 0 auto;
   }
 
   .footer-inner {

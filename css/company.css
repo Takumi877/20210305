@@ -60,9 +60,7 @@ header {
 
 /* -----main---- */
 .company-wrap {
-  padding: 80px 0;
-  width: 960px;
-  margin: 0 auto;
+  padding: 80px 150px;
 }
 
 .company-info {
@@ -194,7 +192,7 @@ footer {
   }
 
   .company-wrap {
-    width: 90%;
+    padding: 80px 50px;
   }
 
   .footer-inner {
