@@ -62,23 +62,25 @@ header {
 
 /* ----service---- */
 .service-wrap {
-  padding: 80px 0;
+  padding: 80px 200px;
   position: relative;
 }
 
-.service-list {
-  vertical-align: middle;
-}
 
 .service-item {
-  padding: 20px 100px;
   border-top: 1px solid #222;
   display: flex;
   flex-wrap: wrap;
 }
 
+.service-list {
+  border-bottom: 1px solid #222;
+}
+
 .service-item-img {
+  display: flex;
   width: 290px;
+  padding: 20px 0;
 }
 
 .service-item-img img {
@@ -96,7 +98,10 @@ header {
 }
 
 .service-item-detail {
-  padding: 0 60px;
+  width: 65%;
+  margin: 20px 0 0 40px;
+  justify-content: space-between;
+  word-wrap: normal;
 }
 
 
