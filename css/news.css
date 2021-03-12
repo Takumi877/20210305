@@ -65,9 +65,7 @@ main {
 }
 
 .news-inner-wrap {
-  padding: 80px 0;
-  width: 960px;
-  margin: 0 auto;
+  padding: 80px 150px;
 }
 
 .news-item-link {
@@ -132,7 +130,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   font-size: 12px;
-  margin: 0 auto;
+  padding: 0 50px;
 }
 
 .footer-nav-list {
@@ -193,9 +191,6 @@ footer {
     text-align: center;
   }
 
-  .news-inner-wrap {
-    width: 90%;
-  }
 
   .news-item-link {
     padding: 10px;
@@ -204,6 +199,10 @@ footer {
 
   .footer-inner {
     width: 85%;
+  }
+
+  .news-inner-wrap {
+    padding: 80px 20px;
   }
 
   .footer-copyright {
